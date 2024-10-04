@@ -11,8 +11,11 @@ int main() {
 	//Input harga novel
 	printf("Masukkan harga per novel: ");
 	scanf("%f", &harga_per_novel);
-	
+
 	//Menghitung total harga
+	total_harga = jumlah_novel * harga_per_novel;
+	
+	//Input diskon
 	printf("Masukkan diskon (dalam persen): ");
 	scanf("%f", &diskon);
 	
